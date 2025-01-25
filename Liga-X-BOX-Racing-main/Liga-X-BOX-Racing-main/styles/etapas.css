@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+   background-image: url(../fundos/fundo1.png);
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+
+nav {
+
+    margin: 45px;
+    text-align: center;
+    gap: 10px;
+
+}
+
+a {
+    
+    
+    font-family: 'Joti one', serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #C2C744;
+    
+    
+}
+
+a:hover {
+
+   color:  #ca7e15;
+
+}
+
+.tabela__temporada {
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0.9;
+    
+    
+}
+
+.tabela__gp {
+
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+td {
+
+    border: #C2C744 solid 2px;
+    border-radius: 10px;
+    font-family: 'arial', sans-serif serif;
+    color: #f6e821;
+    background-color: #0C3323;
+    
+
+}
+
+.bandeirasf1__img { 
+    
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+    
+
+}
+
+
+.rodape__equipes {
+
+    height: 40px;
+    margin-top: 8em;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width: 550px ) {
+
+ body {
+
+    background-image: url(../fundos/f1_wheels.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80vh;
+
+ }
+
+ .rodape__equipes {
+
+    height: 25px;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+
+}
+    
+}
+

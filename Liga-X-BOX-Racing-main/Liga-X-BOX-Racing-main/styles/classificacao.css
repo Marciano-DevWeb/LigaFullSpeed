@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Rubik+Mono+One&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(../fundos/fundo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #C2C744;
+    font-family: 'Joti One', 'sans-serif';
+    font-weight: 700;
+    margin: 1em;
+   
+ 
+}
+
+a {
+    
+    color: #C2C744;
+    text-decoration: none;
+    
+}
+
+a:hover {
+
+    color: #ca7e15;
+    
+}
+
+
+.ranking {
+    
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 25% 65%;
+    align-items: center;
+    gap: 10px;
+    
+    
+    
+}
+
+.logos__f1 {
+
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.row {
+
+    
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Joti one', sans-serif;
+    color:#C2C744;
+    
+    
+    
+}
+
+.car {
+
+    height: 50px;
+    animation: fade-in 2s ease-in-out backwards, slide-in 2s ease-in-out backwards;
+    margin-left: 1em;
+    
+    
+}
+
+.info1  {
+
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+    
+}
+
+.info2  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info3  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info4  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info5  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info6  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info7  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info8  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info9  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info10  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info11  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info12  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info13  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info14  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info15  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info16  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info17  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info18  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info19  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+.info20  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+
+.info21  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%); /* Começa fora da tela */
+    }
+    100% {
+        transform: translateX(0%); /* Fica completamente na tela */
+    }
+}
+
+@keyframes fade-in  {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Atrasos na animação para cada linha */
+.img1 { animation-delay: 0.5s; }
+.img2 { animation-delay: 1s; }
+.img3 { animation-delay: 1.5s;}
+.img4 { animation-delay: 2s;}
+.img5 { animation-delay: 2.5s;}
+.img6 { animation-delay: 3s; }
+.img7 { animation-delay: 3.5s; }
+.img8 { animation-delay: 4s; }
+.img9 { animation-delay: 4.5s; }
+.img10 { animation-delay: 5s; }
+.img11 { animation-delay: 5.5s; }
+.img12 { animation-delay: 6s; }
+.img13 { animation-delay: 6.5s; }
+.img14 { animation-delay: 7s; }
+.img15 { animation-delay: 7.5s; }
+.img16 { animation-delay: 8s; }
+.img17 { animation-delay: 8.5s; }
+.img18 { animation-delay: 9s; }
+.img19 { animation-delay: 9.5s; }
+.img20 { animation-delay: 10s; }
+.img21 { animation-delay: 10.5s; }
+.info1 { animation-delay: 0.5s; }
+.info2 { animation-delay: 1s; }
+.info3 { animation-delay: 1.5s;}
+.info4 { animation-delay: 2s;}
+.info5 { animation-delay: 2.5s;}
+.info6 { animation-delay: 3s; }
+.info7 { animation-delay: 3.5s; }
+.info8 { animation-delay: 4s; }
+.info9 { animation-delay: 4.5s; }
+.info10 { animation-delay: 5s; }
+.info11 { animation-delay: 5.5s; }
+.info12 { animation-delay: 6s; }
+.info13 { animation-delay: 6.5s; }
+.info14 { animation-delay: 7s; }
+.info15 { animation-delay: 7.5s; }
+.info16 { animation-delay: 8s; }
+.info17 { animation-delay: 8.5s; }
+.info18 { animation-delay: 9s; }
+.info19 { animation-delay: 9.5s; }
+.info20 { animation-delay: 10s; }
+.info21 { animation-delay: 10.5s; }
+
+/* Adicione delays semelhantes para mais linhas */
+ 
+
+
+/* Responsividade para iPhone 12 */
+
+@media (max-width: 551px) {
+
+    body {
+        background-image: url(../fundos/formula_1_dark.jpg);
+        background-size: 150vh;
+
+    }
+
+    .car {
+
+        height: 30px;
+    }
+
+    .ranking {
+    
+        margin-top: 3em;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        align-items: center;
+        gap: 10px;
+        
+    }
+
+    .row {
+
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        font-size: 0.5em;
+        font-family: 'Joti one', sans-serif;
+        color: #C2C744;
+        
+    }
+
+    .logos__f1 {
+
+        margin-top: 12em;
+        display: flex;
+        justify-content: center;
+        height: 25px;
+    }
+}
+
+@media (max-width: 391px) {
+
+    body {
+        background-image: url(../fundos/fundoclassificacao.png);
+        background-size: 100vh;
+    }
+
+    .ranking {
+    
+        margin-top: 3em;
+        display: grid;
+        grid-template-columns: 45% 50%;
+        align-items: center;
+        gap: 10px;
+        
+    }
+
+    .car {
+        margin-left: 10px;
+        height: 25px;
+        margin-left: 1em;
+    }
+
+    .row {
+
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        font-size: 0.5em;
+        font-family: 'Joti one', sans-serif;
+        color: #C2C744;
+        
+    }
+
+    .logos__f1 {
+
+        margin-top: 2em;
+        display: flex;
+        justify-content: center;
+        height: 25px;
+    }
+}
