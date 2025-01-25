@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --cor-principal: #02130D;
+    --cor-secundaria: #C2C744;
+    --cor-terciaria: #f69e4c;
+    --cor-hover: #ca7e15;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/assets/Fundosite.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    
+    margin-top: auto;
+    background-color: #0f928c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.Titulo__principal {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Titulo__secundario {
+
+    font-size: 2em;
+    padding: 10rem;
+    font-family: 'Orbitron';
+    color: #00FFF3;
+}
+
+.imagem__pilotos {
+
+    margin-top: 3rem;
+    
+}
+
+.Titulo__secundario p {
+
+    font-size: 0.5em;
+    padding: 0.4em;
+    color: #ffff;
+}
+
+.categorias__corrida {
+
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagem__carros {
+
+    width: 100%;
+  
+}
+
+a {
+    
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #ffff;
+    position: relative; /* Para poder usar o efeito de movimento */
+    transition: all 0.5s ease; /* Adiciona a animação suave */
+}
+
+a:hover {
+
+    color: var(--cor-secundaria); /* Cor do texto quando passar o mouse */
+    transform: translateX(6px); /* Move o link para a direita */
+    text-shadow: 0 3px 15px var(--cor-secundaria); /* Brilho no link */
+}
+
+.link__navegacao {
+
+    padding: 2em;
+    display: flex;
+    gap: 2em;
+}
+
+.logo__liga {
+
+    margin-top: 2em;
+    margin-left: 1rem;
+}
+
+/* Animação para o formulário */
+.formulario__inscricao {
+    padding: 2em;
+    position: relative; /* Necessário para aplicar transformações */
+    transition: all 0.3s ease; /* Adiciona a animação suave */
+}
+
+.formulario__inscricao:hover {
+    transform: translateX(-10px); /* Move o formulário para cima */
+    box-shadow: 0 2 15px #1100f8; /* Brilho no formulário */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
