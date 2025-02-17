@@ -51,7 +51,7 @@ header {
     font-weight: 500;
     font-style: italic;
     text-decoration: none;
-    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .links__navegacao a:hover {
@@ -62,35 +62,33 @@ header {
 }
 
 
-.redes__sociais {
+.formulario {
 
     padding: 1rem;
-    color: var(--color-principal);
     margin-right: 2rem;
-    font-family: var(--font-principal);
     font-style: italic;
     display: flex;
     gap: 0.4rem;
 }
 
-.redes__sociais a {
+.formulario a {
 
-    color: var(--color-principal);
-    margin-right: 2rem;
     text-decoration: none;
     font-family: var(--font-principal);
-    font-size: 1.1em;
+    color: var(--color-principal);
+    font-size: 1.2em;
     font-weight: 500;
-    font-style: italic;
     transition: transform 0.3s ease;
 }
 
-.redes__sociais a:hover {
+.formulario a:hover {
 
     color: var(--color-hover);
     text-shadow: var(--color-principal) 0 2px 10px;
-    transform: scale(1.1);
+    transform: translateY(-5px);
+
 }
+
 
 
 .logo img {
@@ -110,24 +108,21 @@ header {
 
 .titulo {
 
-    background-image: url('/assets/BG.jpg');
-    background-position: center;
+    background-image: url('../assets/BG.png');
+    background-size: 100%;
+    height: 640px;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 424px;
-    margin: 4rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
-    border-radius: 15px;
+    box-shadow: var(--color-hover) 0px 6px 8px 1px;
     
 }
 
 
 .texto__titulo {
 
-  margin-left: 8rem;
+  margin-left: 4rem;
+  padding: 4rem;
   
 
 }
@@ -253,15 +248,17 @@ h2 {
 
 .grids__liga {
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 50% 50%;
     text-align: center;
     padding: 4rem;
     align-items: center;
     
-    
-    
+}
+
+ #bravo {
+
+    order: 3;
 }
 
 
@@ -276,8 +273,6 @@ h2 {
 
 footer {
 
-    
-    
     color: var(--color-paragrafo);
     text-align: center;
     padding: 4rem ;
@@ -289,6 +284,7 @@ footer a {
 
     padding: 0.5rem;
     color: var(--color-politicas);
+    font-family: var(--font-principal);
     text-decoration: none;
     margin-top: 1rem;
     margin: 2rem;
@@ -302,6 +298,14 @@ footer a:hover {
 
 }
 
+.redes__sociais {
+
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 3rem;
+}
+
 
 @media (max-width: 920px) {
 
@@ -311,7 +315,7 @@ footer a:hover {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
-        height: 200px;
+        height: auto;
         margin: 4rem;
         display: flex;
         justify-content: space-between;
@@ -379,10 +383,17 @@ footer a:hover {
     
     }
 
+    .grids__liga img {
+
+        width: 35%;
+    }
+
     footer {
 
         display: flex;
+        justify-content: center;
         flex-direction: column;
+        font-family: var(--font-principal);
     }
 
     .rodape__links {
@@ -391,6 +402,9 @@ footer a:hover {
         flex-direction: column;
     }
 
+    
+
+  
 }
 
 @media (max-width: 720px) {
@@ -428,6 +442,37 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         height: 80px;
+    }
+
+    h2 {
+
+        font-size: 1em;
+    }
+
+    .link__live iframe {
+
+        
+        width: 50%;
+        height: auto;
+        height: 25vh;
+        border-radius: 10px;
+        box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
+    
+    }
+
+   .calendario .texto__evento {
+
+    display: block;
+   }
+
+    .proximas__etapas img {
+
+        max-width: 50%;
+    }
+
+    .grids__liga img {
+
+        width: 50%;
     }
  
 }

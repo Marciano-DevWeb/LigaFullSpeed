@@ -1,0 +1,63 @@
+.menu__hamburguer {
+    cursor: pointer;
+    display: none;
+}
+
+
+.menu__hamburguer div {
+
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+@media (max-width: 920px) {
+
+    .menu__hamburguer div {
+
+        width: 32px;
+        height: 2px;
+        background: #fff;
+        margin: 6px;
+    }
+
+    .menu__hamburguer {
+
+        position: absolute;
+        top: 4vh;
+        left: 0;
+        margin-left: 1rem;
+        width: 100vw;
+        height: 92vh;
+        background: var(#91A3D1);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu__hamburguer {
+        display: block;
+    }
+
+    .links__navegacao a {
+        display: none;
+    }
+
+    .formulario {
+        display: none;
+    }
+
+    header {
+
+        display: flex;
+        justify-content: end;
+        
+    }
+
+    .logo img {
+
+        height: 4.5rem;
+        
+    }
+}

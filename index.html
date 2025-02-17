@@ -6,35 +6,41 @@
     <title>Liga Full Speed</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/menuhamb.css">
 </head>
 <body>
     <header>
         <div class="logo"><a href="#home">
             <img class="logo__liga-img" src="assets/logo.png" alt=""></a>
         </div>
+        
         <nav class="links__navegacao">
+    
+            <div class="menu__hamburguer" id="hamburger-menu">
+                <div class="linha1"></div>
+                <div class="linha2"></div>
+                <div class="linha3"></div>
+            </div>
+    
             <a href="#">Home</a>
             <a href="#">Etapas</a>
             <a href="#">Classificação</a>
             <a href="#">Regras</a>
         </nav>
-        <div class="redes__sociais">
-
-            <img src="assets/instagram.png" alt="">
-            <img src="assets/discord.png" alt="">
-            <img src="assets/youtube.png" alt="">
-            
+    
+        <div class="formulario">
+            <a href="#">Inscreva-se</a>
         </div>
     </header>
+    
 
     <section class="titulo">
+        
         <div class="texto__titulo">
             <h1>"Adrenalina Pura,<br> Velocidade Sem Limites"</h1>
             <p>No nosso mundo virtual, cada curva é um desafio, <br> e cada vitória uma conquista. Prepare-se para acelerar!</p>
         </div>
 
-        <div class="Vazio"></div>
-      
     </section>
 
     <section class="link__live">
@@ -96,12 +102,12 @@
 
         <section class="grids__liga">
 
-            <div>
+            <div id="bravo">
                     <img src="assets/GridBravo.png" alt="">
             </div>
             <div>
 
-                <h3>Grid Bravo</h3>
+                <h3 id="bravo__titulo">Grid Bravo</h3>
                 <p>
                     O Grid Bravo é o ponto de encontro para aqueles que já têm uma boa base no automobilismo virtual,<br/>
                     mas ainda estão em busca de aprimorar suas habilidades e alcançar o próximo nível.<br/>
@@ -121,7 +127,7 @@
                 <img src="assets/GridCharlie.png" alt="">
             </div>
             <div>
-                <h3>Grid Charlie</h3>
+                <h3 >Grid Charlie</h3>
                 <p>
                     O Grid Charlie é o espaço dedicado aos pilotos novatos ou com pouca experiência,<br/>
                     mas com uma enorme vontade de aprender e evoluir. <br/> Aqui, o foco é no desenvolvimento de habilidades e na compreensão das nuances do automobilismo virtual. <br>
@@ -135,18 +141,31 @@
 </section>
     
     <footer>
-        <p>
-            &copy; 2025 Liga Full Speed. Todos os direitos reservados.
-        </p>
-        <p class="rodape__links">
-            <a href="#privacy">Política de Privacidade</a>
-            <a href="#terms">Termos de Serviço</a>
-            <a href="#contact">Fale Conosco</a>
-            <a  href="#">Inscreva-se</a>
-        </p>
-
-      
         
+        <div>
+
+            <p>
+                &copy; 2025 Liga Full Speed. Todos os direitos reservados.
+            </p>
+
+        </div>
+
+            <div class="rodape__links">
+
+                <a href="#privacy">Política de Privacidade</a>
+                <a href="#terms">Termos de Serviço</a>
+                <a href="#contact">Fale Conosco</a>
+
+            </div>
+
+        <div class="redes__sociais">
+
+            <img src="assets/instagram.png" alt="">
+            <img src="assets/discord.png" alt="">
+            <img src="assets/youtube.png" alt="">
+            
+            
     </footer>
+    
 </body>
 </html>
