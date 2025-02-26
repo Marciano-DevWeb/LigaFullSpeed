@@ -110,11 +110,11 @@ header {
 
     background-image: url('../assets/BG.png');
     background-size: 100%;
-    height: 640px;
+    height: 600px;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    box-shadow: var(--color-hover) 0px 6px 8px 1px;
+
     
 }
 
@@ -148,7 +148,7 @@ header {
 
 .calendario img:hover {
 
-    transform: scale(1.1);
+    transform: scale(1.03);
 
 }
 
@@ -162,24 +162,29 @@ header {
 .proximas__etapas  p {
 
     margin: 0.3rem;
+    font-size: 0.8em;
 
 }
 
 .texto__evento {
 
+    background-color: var(--color-header);
     display: flex;
+    border-radius: 10px;
+    padding: 15px;
     justify-content: start;
     flex-direction: column;
-    margin: 0.3rem;
+    margin: 0.5rem;
 
 }
 
 
 h3 {
 
-    color: var(--color-paragrafo);
+    color: var(--color-hover);
     padding: 0.2rem;
     font-family: var(--font-principal);
+    font-weight: 700;
 }
 
 h1 {
@@ -256,7 +261,7 @@ h2 {
     
 }
 
- #bravo {
+#bravo {
 
     order: 3;
 }
@@ -269,7 +274,10 @@ h2 {
     font-weight: 600;
 }
 
-
+.etapas__titulo {
+    
+    display: none;
+}
 
 footer {
 
@@ -311,24 +319,19 @@ footer a:hover {
 
     .titulo {
 
-        
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url('../assets/BG.png');
         background-size: 100%;
-        height: auto;
-        margin: 4rem;
+        background-repeat: no-repeat;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
-        border-radius: 15px;
+        border: none;
         
     }
 
     .texto__titulo h1 {
 
         font-size: 1.5em;
-        margin: 0;
+        margin: auto;
     }
 
     .texto__titulo p {
@@ -355,7 +358,7 @@ footer a:hover {
         width: 50%;
         height: 25vh;
         border-radius: 10px;
-        box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
+        
     
     }
 
@@ -375,7 +378,7 @@ footer a:hover {
     }
 
     .texto__evento {
-
+        
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -407,15 +410,30 @@ footer a:hover {
   
 }
 
-@media (max-width: 720px) {
+@media (max-width: 490px) {
+
+    .logo img {
+
+        margin-left: 2rem;
+        height: 50px;
+        width: 75px;
+        transition: transform 0.3s ease;
+        
+    }
 
     .titulo {
 
-        background-image: url(/assets/FundoTitulo.png);
-        background-size: 58%;
+        background-image: url('../assets/FundoTitulo.png');
+        background-size: cover;
+        height: 220px;
         box-shadow: none;
         border-radius: none;
-        margin: 5rem;
+        margin: 2rem;
+    }
+
+    h2 {
+
+        display: none;
     }
 
     .texto__titulo h1 {
@@ -441,7 +459,7 @@ footer a:hover {
 
         display: flex;
         flex-direction: column;
-        height: 80px;
+        
     }
 
     h2 {
@@ -451,10 +469,8 @@ footer a:hover {
 
     .link__live iframe {
 
-        
-        width: 50%;
-        height: auto;
-        height: 25vh;
+        display: none;
+        height: 100%;
         border-radius: 10px;
         box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
     
@@ -465,14 +481,25 @@ footer a:hover {
     display: block;
    }
 
+   .proximas__etapas {
+
+    display: flex;
+    justify-content: center;
+
+   }
+
     .proximas__etapas img {
 
-        max-width: 50%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+
     }
 
     .grids__liga img {
 
         width: 50%;
+        flex-wrap: nowrap;
     }
  
 }
