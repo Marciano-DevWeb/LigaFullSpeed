@@ -18,6 +18,8 @@
 }
 
 
+
+
 body {
 
   background: linear-gradient(52deg,#0f2b50 35%, #9FE7FF 100%);
@@ -245,11 +247,7 @@ h2 {
 
 }
 
-.container__grids-liga {
 
-    box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
-
-}
 
 .grids__liga {
 
@@ -272,6 +270,10 @@ h2 {
     color: var(--color-hover);
     font-size: 2em;
     font-weight: 600;
+}
+
+.texto__grids {
+    box-sizing: border-box;
 }
 
 .etapas__titulo {
@@ -315,191 +317,3 @@ footer a:hover {
 }
 
 
-@media (max-width: 920px) {
-
-    .titulo {
-
-        background-image: url('../assets/BG.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        border: none;
-        
-    }
-
-    .texto__titulo h1 {
-
-        font-size: 1.5em;
-        margin: auto;
-    }
-
-    .texto__titulo p {
-
-        font-size: 0.5em;
-        margin: 0;
-        padding: 0.5rem;
-    }
-
-    .grids__liga {
-
-        box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
-        display: block;
-    
-    }
-
-    .grids__liga {
-        order: 3 / 4;
-    }
-
-    .link__live iframe {
-
-        
-        width: 50%;
-        height: 25vh;
-        border-radius: 10px;
-        
-    
-    }
-
-    .calendario {
-
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
-       align-items: center;
-        
-    }
-
-    .calendario img {
-
-        width: auto;
-        
-    }
-
-    .texto__evento {
-        
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        margin: 0.5rem;
-    
-    }
-
-    .grids__liga img {
-
-        width: 35%;
-    }
-
-    footer {
-
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        font-family: var(--font-principal);
-    }
-
-    .rodape__links {
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    
-
-  
-}
-
-@media (max-width: 490px) {
-
-    .logo img {
-
-        margin-left: 2rem;
-        height: 50px;
-        width: 75px;
-        transition: transform 0.3s ease;
-        
-    }
-
-    .titulo {
-
-        background-image: url('../assets/FundoTitulo.png');
-        background-size: cover;
-        height: 220px;
-        box-shadow: none;
-        border-radius: none;
-        margin: 2rem;
-    }
-
-    h2 {
-
-        display: none;
-    }
-
-    .texto__titulo h1 {
-
-        display: none;
-        font-size: 1.5em;
-        margin: 0;
-    }
-
-    .texto__titulo p {
-
-        display: none;
-        font-size: 1.5em;
-        margin: 0;
-    }
-
-    .redes__sociais {
-
-        display: none;
-    }
-
-    header {
-
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    h2 {
-
-        font-size: 1em;
-    }
-
-    .link__live iframe {
-
-        display: none;
-        height: 100%;
-        border-radius: 10px;
-        box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
-    
-    }
-
-   .calendario .texto__evento {
-
-    display: block;
-   }
-
-   .proximas__etapas {
-
-    display: flex;
-    justify-content: center;
-
-   }
-
-    .proximas__etapas img {
-
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .grids__liga img {
-
-        width: 50%;
-        flex-wrap: nowrap;
-    }
- 
-}
