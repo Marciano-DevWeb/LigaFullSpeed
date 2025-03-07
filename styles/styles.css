@@ -135,8 +135,6 @@ header {
     display: flex;
     justify-content: center;
     gap: 3rem;
-   
-   
 
 }
 
@@ -258,6 +256,7 @@ h2 {
     text-align: center;
     padding: 4rem;
     align-items: center;
+    box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
     
 }
 
