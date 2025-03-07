@@ -1,5 +1,15 @@
 @media (max-width: 920px) {
 
+    .logo img {
+
+        margin-left: 2rem;
+        height: 50px;
+        width: 75px;
+        transition: transform 0.3s ease;
+        
+    }
+
+
    
     .titulo {
 
@@ -109,7 +119,7 @@
 
     .logo img {
 
-        margin-left: 2rem;
+        margin-left: 1rem;
         height: 50px;
         width: 75px;
         transition: transform 0.3s ease;
@@ -202,7 +212,5 @@
         width: 50%;
         flex-wrap: nowrap;
     }
-
-    
  
 }

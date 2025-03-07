@@ -27,9 +27,7 @@
         position: absolute;
         top: 2vh;
         left: 0;
-        margin-left: 1rem;
-        width: 100vw;
-        height: vh;
+        margin-left: 1.5rem;  
         background: var(#91A3D1);
         flex-direction: column;
         align-items: center;

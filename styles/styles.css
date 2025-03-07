@@ -34,7 +34,7 @@ header {
 
     background-color: var(--color-header);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -112,7 +112,7 @@ header {
 
     background-image: url('../assets/BG.png');
     background-size: 100%;
-    height: 600px;
+    height:600px;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -150,7 +150,7 @@ header {
 
 .calendario img:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
@@ -160,6 +160,8 @@ header {
     flex-direction: column;
     
 }
+
+
 
 .proximas__etapas  p {
 
@@ -206,7 +208,7 @@ h1 {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1);
+        transform: scale(0.9);
     }
 }
 
@@ -229,8 +231,8 @@ p {
 
 .link__live iframe {
 
-    width: 50%;
-    height: 450px;
+    width: 60%;
+    height: 50vh;
     border: none;
     border-radius: 10px;
     box-shadow: var(--color-hover) 0px 0.5px 8px 1px;
